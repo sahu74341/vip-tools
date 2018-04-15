@@ -1,0 +1,14 @@
+*.log
+*.log.*
+.idea/
+*.diff
+*.patch
+*.bak
+.DS_Store
+.build
+node_modules
+.cache
+dist
+tests/*.css
+yarn.lock
+.vscode

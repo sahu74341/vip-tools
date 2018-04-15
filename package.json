@@ -1,0 +1,30 @@
+{
+  "name": "vip-tools",
+  "version": "0.0.1",
+  "description": "gulp、react、typescript、less to compile",
+  "keywords": [
+    "tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vipway/vip-tools.git"
+  },
+  "issues": {
+    "url": "https://github.com/vipway/vip-tools/issues"
+  },
+  "scripts": {
+    "pub": "git push origin && npm publish"
+  },
+  "bin": {
+    "vip-tools": "./bin/tools.js",
+    "vip-tools-run": "./bin/tools-run.js"
+  },
+  "author": "jiawei.mao",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "colorful": "^2.1.0",
+    "commander": "^2.15.1",
+    "gulp": "^3.9.1"
+  }
+}
